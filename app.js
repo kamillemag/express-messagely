@@ -18,7 +18,7 @@ app.use(cors());
 // get auth token for all routes
 app.use(authenticateJWT);
 
-/** routes */
+/** routes */ 
 
 const authRoutes = require("./routes/auth");
 const userRoutes = require("./routes/users");
